@@ -1,0 +1,20 @@
+name = "seo-ops"
+compatibility_date = "2025-04-18"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+[observability]
+enabled = true
+
+[vars]
+KINDE_CLIENT_ID= "5d760d08bac84ec3af46fd9f65a41350"
+KINDE_ISSUER_URL = "https://seobrothers.kinde.com"
+KINDE_REDIRECT_URL = "https://workbench.seobrothers.pages.dev/api/auth/kinde_callback"
+KINDE_POST_LOGOUT_REDIRECT_URL = "https://workbench.seobrothers.pages.dev/"
+KINDE_POST_LOGIN_REDIRECT_URL = "https://workbench.seobrothers.pages.dev/dashboard"
+KINDE_SCOPE = "profile email offline openid"
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "91ebf7e3428840a380c6a582d9e0bdcc"
+localConnectionString = "postgresql://postgres.uvwnfwhzdjlrdbhtkanr:PtMVotE6uEAdn68W@aws-1-us-east-2.pooler.supabase.com:5432/postgres"
