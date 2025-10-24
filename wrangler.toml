@@ -15,7 +15,7 @@ KINDE_POST_LOGOUT_REDIRECT_URL = "https://ops.seobrothers.com/"
 KINDE_POST_LOGIN_REDIRECT_URL = "https://ops.seobrothers.com/dashboard"
 KINDE_SCOPE = "profile email offline openid"
 
-[[hyperdrive]]
-binding = "HYPERDRIVE"
-id = "91ebf7e3428840a380c6a582d9e0bdcc"
-localConnectionString = "postgresql://postgres.uvwnfwhzdjlrdbhtkanr:PtMVotE6uEAdn68W@aws-1-us-east-2.pooler.supabase.com:5432/postgres"
+[[d1_databases]]
+binding = "DB"
+database_name = "seobros-ops-core"
+database_id = "24ff2fe8-80b2-4474-8fd4-7876c2836fff"

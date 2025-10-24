@@ -1,0 +1,154 @@
+{
+	"/(base)": [
+		"src/routes/(base)/+page.server.ts"
+	],
+	"/(app)": [
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/": [],
+	"/api/auth/[...kindeAuth]": [
+		"src/routes/api/auth/[...kindeAuth]/+server.ts"
+	],
+	"/api/internal/example": [
+		"src/routes/api/internal/example/+server.ts"
+	],
+	"/(app)/dashboard": [
+		"src/routes/(app)/dashboard/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops": [
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/access-items": [
+		"src/routes/(app)/ops/access-items/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/access-items/new": [
+		"src/routes/(app)/ops/access-items/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/access-items/[id]": [
+		"src/routes/(app)/ops/access-items/[id]/+server.ts"
+	],
+	"/(app)/ops/access-items/[id]/edit": [
+		"src/routes/(app)/ops/access-items/[id]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/access-items/[id]/view": [
+		"src/routes/(app)/ops/access-items/[id]/view/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-onboarding": [
+		"src/routes/(app)/ops/campaign-onboarding/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-onboarding/new": [
+		"src/routes/(app)/ops/campaign-onboarding/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-onboarding/[id]": [
+		"src/routes/(app)/ops/campaign-onboarding/[id]/+server.ts"
+	],
+	"/(app)/ops/campaign-onboarding/[id]/edit": [
+		"src/routes/(app)/ops/campaign-onboarding/[id]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-profiles": [
+		"src/routes/(app)/ops/campaign-profiles/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-profiles/new": [
+		"src/routes/(app)/ops/campaign-profiles/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/campaign-profiles/[id]": [
+		"src/routes/(app)/ops/campaign-profiles/[id]/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts",
+		"src/routes/(app)/ops/campaign-profiles/[id]/+server.ts"
+	],
+	"/(app)/ops/packages": [
+		"src/routes/(app)/ops/packages/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/packages/new": [
+		"src/routes/(app)/ops/packages/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/packages/[id]": [
+		"src/routes/(app)/ops/packages/[id]/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/partner-onboarding": [
+		"src/routes/(app)/ops/partner-onboarding/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/partner-onboarding/new": [
+		"src/routes/(app)/ops/partner-onboarding/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/partner-onboarding/[id]": [
+		"src/routes/(app)/ops/partner-onboarding/[id]/+server.ts"
+	],
+	"/(app)/ops/partner-onboarding/[id]/edit": [
+		"src/routes/(app)/ops/partner-onboarding/[id]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/permissions": [
+		"src/routes/(app)/ops/permissions/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/permissions/new": [
+		"src/routes/(app)/ops/permissions/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/permissions/[id]/edit": [
+		"src/routes/(app)/ops/permissions/[id]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/scope-items": [
+		"src/routes/(app)/ops/scope-items/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/scope-items/new": [
+		"src/routes/(app)/ops/scope-items/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/scope-items/[id]": [
+		"src/routes/(app)/ops/scope-items/[id]/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts",
+		"src/routes/(app)/ops/scope-items/[id]/+server.ts"
+	],
+	"/(app)/ops/scope-items/[itemId]/edit": [
+		"src/routes/(app)/ops/scope-items/[itemId]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-catalog": [
+		"src/routes/(app)/ops/service-catalog/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-catalog/new": [
+		"src/routes/(app)/ops/service-catalog/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-catalog/[id]": [
+		"src/routes/(app)/ops/service-catalog/[id]/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts",
+		"src/routes/(app)/ops/service-catalog/[id]/+server.ts"
+	],
+	"/(app)/ops/service-catalog/[itemId]/edit": [
+		"src/routes/(app)/ops/service-catalog/[itemId]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-categories": [
+		"src/routes/(app)/ops/service-categories/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-categories/new": [
+		"src/routes/(app)/ops/service-categories/new/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	],
+	"/(app)/ops/service-categories/[categoryId]/edit": [
+		"src/routes/(app)/ops/service-categories/[categoryId]/edit/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts"
+	]
+}

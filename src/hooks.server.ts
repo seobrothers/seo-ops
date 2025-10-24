@@ -47,7 +47,10 @@ function getKindeAuthSessionManager(event: EventHandler): [boolean, SessionManag
 
 const handleDb: Handle = async ({ event, resolve }) => {
 	try {
-		event.locals.db = createDb(event.platform);
+		if (!event.platform?.env?.DB) {
+			throw new Error('Database binding not found');
+		}
+		event.locals.db = createDb(event.platform.env.DB);
 	} catch (err) {
 		console.error('Database connection error:', err);
 		return error(500, 'Database connection failed');
